@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=0.1">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="Style/style.css">
+  <script defer src="JS/menu.js"></script>
+  <link rel="icon" href="Images/emblema_no_bg.png">
+  <title>Gimnaziul Alexandru Ioan Cuza</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+                <img src="Images/emblema-removebg-preview.png" height="35%" width="35%">
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="index.html">Acasă</a></li>
+            <li><a href="profesori.html" >Colectivul Didactic</a></li>
+            <li><a href="orar.html" >Orar</a></li>
+            <li><a href="contacte.html" >Contacte</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div alt="Slider" id="index_back">                 
+      <img class="mySlides" src="Images/gimnaziu.png" id="prima">
+     
+          <img class="mySlides" src="Images/clasa.png" id="trei">
+        
+      <img class="mySlides" src="Images/copii_batrani.png" id="doi">
+    </div>             
+    <script>
+    var slideIndex = 0;
+    carousel();
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+      }
+      slideIndex++;
+      if (slideIndex > x.length) {slideIndex = 1} 
+      x[slideIndex-1].style.display = "block"; 
+      setTimeout(carousel, 7000); 
+    }
+    </script>   
+   <div class="hero container">
+      <div class="text" id="txt" >
+        <h1 class="gold">Gimnaziul <span></span></h1>
+        <h1 class="gold">Alexandru <span></span></h1>
+        <h1 class="white">Ioan Cuza <span></span></h1>
+      </div>
+   </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Historic Section -->
+  <section id="historic">
+    <div class="historic container">
+      <div id="Line">
+       <div class="historic-top">
+         <h1 class="section-title">Istoricul <span>liceului</span></h1>
+         <p>La 15 august 1944 și-a început activitatea școala feroviară ruso-moldovenească nr. 57.
+            Primul director a fost Gavrilov Ion Semion. La 15 noiembrie 1953 școala a fost divizată 
+            în 2 școli independente: școala nr. 57 rusă și școala nr. 71 moldovenească. Director al 
+            școlii feroviare nr. 71 a fost Dubceac Boris. În 1953 școala este dislocată într-un bloc 
+            nou, situat pe strada Kiev 110, cu 11 încăperi de clasă, o cantină mică, un atelier de 
+            educație tehnologică și o sală de sport.
+            În anul 1956 instituția a fost redenumită Școala nr. 4, director fiind Ipatii Ștefan. În 
+            anul 1965, luna octombrie, secția de învățământ a căilor ferate Odesa-Chișinău oferă cadou
+            elevilor un bloc modern cu două etaje, 15 auditorii de studii. Acesta este blocul situat
+            de strada Cahul 46, în care până în prezent studiază elevii Gimnaziului „Alexandru Ioan Cuza”.
+         </p>
+       </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Historic Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects-content">
+      <div class="projects-header">
+        <h1 class="section-title">Carte <span>de </span>vizită</h1>
+      </div>
+          <div class="project-info">
+              <p>Gimnaziul “A.I.Cuza” contribuie la dezvoltarea fiecărui elev, la potențialul 
+                său maxim de către un colectiv profesoral profesionist, punând accentul pe 
+                dezvoltarea valorilor,a competențelor, care îi permit să devină un cetățean 
+                implicat și responsabil. 
+              </p>
+              <p>           
+                Gimnaziul “Al.I.Cuza”e o scoală în care sunt ridicate ziduri de încredere, 
+                dragoste, putere, susţinere şi loialitate. Sloganul „o scoală prietenoasă”
+                e mai mult decat o etichetă, e o datorie însuşită şi asumată de către toţi 
+                cei care îi calcă pragul.
+              </p>  
+              <p>
+                Personalul didactic foarte bine pregatit, oferta curriculară variată, activităţile 
+                extraşcolare multiple şi proiectele naţionale şi internaţionale la care se participă,
+                disciplinele opţionale diversificate, sunt câteva din elementele pentru care școala
+                noastră este preferată.
+                Profesionalismul, voinţa şi munca sunt factorii care trasează traiectorii de
+                dezvoltare a personalităţii elevilor noştri!
+             </p>
+          </div>
+  </section>
+  <!-- End Projects Section -->
+  <!-- Message Section-->
+  <section id="message">
+    <div class="message container">
+       <div class="message-top">
+         <h1 class="section-title">Mesajul Doamnei <span>Guțalov Lilia</span></h1>
+         <p>Mottoul după care se ghidează instituția de învățământ este: „Învaţă să fii învingător!”
+          Gimnaziul „A.I.Cuza”, situat în Cartierul Gării de Nord a oraşului, oferă copiilor un cadru 
+          ambiental propice dezvoltării personalităţii acestora.
+        „Împreună vom deschide ferestrele minţii pentru cunoaştere şi porţile sufletului pentru 
+          valorile perene ale umanităţii” este ideea pe care se fundamentează viziunea gimnaziului „A.I.Cuza”.
+        <p>În prezent în instituție își fac studiile 448 de elevi în 18 clase - 8 clase primare și 10 clase gimnaziale.
+         În ultimii ani gimnaziul se bucură de o popularitate crescută în comunitate, datorită calității procesului 
+          instructiv-educativ desfășurat în gimnaziu și participării instituției la diverse proiecte naționale și internaționale.
+          Activitatea de management se bazeaza pe o conlucrare permanenta cu Consiliul de Administrație, Consiliul Profesoral, 
+          Consiliul reprezentativ al parintilor, Consiliul Elevilor și comunitatea locală, asigurandu-se dezvoltarea bazei didactico-materială, 
+          organizarea, monitorizarea si evaluarea activității în baza obiectivelor stabilite la nivel național, la nivel local și instituțional.</p>
+        <p>Gimnaziul dispune de o dotare corespunzătoare unui învățământ modern, prestigul acestuia crescând an de an  prin omogenitatea 
+          valorică a colectivului și prin prestanța cadrelor didactice, care-și onorează vocația și profesia de dascăl.
+        Gimnaziul „A.I.Cuza” devine un partener de învățare, facilitând elevilor accesul la conținuturi noi și creative, precum și 
+          dobândirea de competențe necesare adaptării la o lume în continuă schimbare.</p>
+       </div>
+    </div>
+  </section>
+ <!-- End Message Section -->
+
+<!-- Slider Section -->
+<div class="body-content">
+  <div class="wrapper">
+    <i id="left" class="fa-solid fa-angle-left"></i>
+    <div class="slider">
+      <img src="Images/fete_colac.png" alt="img" draggable="false">
+      <img src="Images/elevi_diplome.png" alt="img" draggable="false">
+      <img src="Images/buna_seara.png" alt="img" draggable="false">
+      <img src="Images/balul_frunzelor.png" alt="img" draggable="false">
+      <img src="Images/activitate_eminescu.png" alt="img" draggable="false">
+      <img src="Images/profesori_clasa.png" alt="img" draggable="false">
+      <img src="Images/tvc_matematic.png" alt="img" draggable="false">
+      <img src="Images/9_mai.png" alt="img" draggable="false">
+      <img src="Images/ansamblu_popular.png" alt="img" draggable="false">
+    </div>
+    <i id="right" class="fa-solid fa-angle-right"></i>
+  </div>
+</div>
+<script>
+const slider = document.querySelector(".slider"),
+firstImg = slider.querySelectorAll("img")[0],
+arrowIcons = document.querySelectorAll(".wrapper i");
+
+let isDragStart = false, isDragging = false, prevPageX, prevScrollLeft, positionDiff;
+
+const showHideIcons = () => {
+let scrollWidth = slider.scrollWidth - slider.clientWidth;
+arrowIcons[0].style.display = slider.scrollLeft == 0 ? "none" : "block";
+arrowIcons[1].style.display = slider.scrollLeft == scrollWidth ? "none" : "block";
+}
+
+arrowIcons.forEach(icon => {
+icon.addEventListener("click", () => {
+    let firstImgWidth = firstImg.clientWidth + 14; 
+    slider.scrollLeft += icon.id == "left" ? -firstImgWidth : firstImgWidth;
+    setTimeout(() => showHideIcons(), 60);
+});
+});
+
+const autoSlide = () => {
+if(slider.scrollLeft - (slider.scrollWidth - slider.clientWidth) > -1 || slider.scrollLeft <= 0) return;
+
+positionDiff = Math.abs(positionDiff); 
+let firstImgWidth = firstImg.clientWidth + 14;
+let valDifference = firstImgWidth - positionDiff;
+
+if(slider.scrollLeft > prevScrollLeft) { 
+    return slider.scrollLeft += positionDiff > firstImgWidth / 3 ? valDifference : -positionDiff;
+}
+slider.scrollLeft -= positionDiff > firstImgWidth / 3 ? valDifference : -positionDiff;
+}
+
+const dragStart = (e) => {
+isDragStart = true;
+prevPageX = e.pageX || e.touches[0].pageX;
+prevScrollLeft = slider.scrollLeft;
+}
+
+const dragging = (e) => {
+if(!isDragStart) return;
+e.preventDefault();
+isDragging = true;
+slider.classList.add("dragging");
+positionDiff = (e.pageX || e.touches[0].pageX) - prevPageX;
+slider.scrollLeft = prevScrollLeft - positionDiff;
+showHideIcons();
+}
+
+const dragStop = () => {
+isDragStart = false;
+slider.classList.remove("dragging");
+
+if(!isDragging) return;
+isDragging = false;
+autoSlide();
+}
+
+slider.addEventListener("mousedown", dragStart);
+slider.addEventListener("touchstart", dragStart);
+
+document.addEventListener("mousemove", dragging);
+slider.addEventListener("touchmove", dragging);
+
+document.addEventListener("mouseup", dragStop);
+slider.addEventListener("touchend", dragStop);
+</script>
+ <!-- Slider Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>Gimnaziul </span>Alexandru <span>Ioan </span>Cuza</h1>
+      </div>
+      <div class="container">
+            <span class="label">Urmăreşte-ne pe:</span>
+            <a href="https://www.facebook.com/gymnasium.cuza.balti/" target="_blank" rel="noopener">
+                <i class="icon-facebook2"></i>Facebook
+            </a>
+            <span class="label">Pentru Informații:</span>
+            <a href="tel:023146424">
+                <i class="icon-phone"></i>023 146 424
+            </a>
+            <a href="mailto:l.cuza46@gmail.com">l.cuza46@gmail.com</a>
+    </div>
+  </section>
+  <!-- End Footer -->
+</body>
+
+</html>
